@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Progra-web/',
+  base: "https://Chavesito.github.io/steam_clone",
   server: {
     proxy: {
       // Proxy para /store-api
