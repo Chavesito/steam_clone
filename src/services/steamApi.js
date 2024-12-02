@@ -1,8 +1,8 @@
 import axios from 'axios';
 const STORE_URL = 'https://store.steampowered.com/api';
 
-const BASE_URL = '/store-api/api';
-const BASE_URL1 = '/api';
+const BASE_URL = 'https://store.steampowered.com/api';
+const BASE_URL1 = 'https://api.steampowered.com';
 
 export const getAppDetails = async (appId) => {
   try {
